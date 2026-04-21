@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,42 +10,43 @@
     <link rel="stylesheet" href="estilo.css">
     <title>Calculadora 2.0</title>
 </head>
+
 <body>
     <div class="container">
-        <h1>Calculadora JS</h1>
-            <div class="corpo">
-                <div class="teclas">
-                    <button class="tecla" onclick="pi()">π</button>
-                    <button class="tecla" onclick="c()">CE</button>
-                    <button class="tecla" onclick="mm()">±</button>
-                    <button class="tecla" onclick="pot()">**</button>    
-                    <button class="tecla" onclick="sete()">7</button>
-                    <button class="tecla" onclick="oito()">8</button>     
-                    <button class="tecla" onclick="nove()">9</button>
-                    <button class="tecla" onclick="div()">/</button>
-                    <button class="tecla" onclick="quatro()">4</button>
-                    <button class="tecla" onclick="cinco()">5</button>
-                    <button class="tecla" onclick="seis()">6</button>
-                    <button class="tecla" onclick="mul()">*</button>
-                    <button class="tecla" onclick="um()">1</button>
-                    <button class="tecla" onclick="dois()">2</button>         
-                    <button class="tecla" onclick="tres()">3</button>
-                    <button class="tecla" onclick="sub()">-</button>
-                    <button class="tecla" onclick="zero()">0</button>
-                    <button class="tecla" onclick="pon()">.</button>
-                    <button class="tecla" onclick="igual()">=</button>
-                    <button class="tecla" onclick="som()">+</button> 
-                        
-                </div>
-                <div class="resultado">
-                    <input type="text" id="res" class="res">
-                </div>
+        <h1>Calculadora 2.0</h1>
+        <div class="corpo">
+            <div class="teclas">
+                <button class="tecla" onclick="p('3.14159265359')">π</button>
+                <button class="tecla" onclick="c()">CE</button>
+                <button class="tecla" onclick="mm()">±</button>
+                <button class="tecla" onclick="op('**')">**</button>
+                <button class="tecla" onclick="calcular(7)">7</button>
+                <button class="tecla" onclick="calcular(8)">8</button>
+                <button class="tecla" onclick="calcular(9)">9</button>
+                <button class="tecla" onclick="op('/')">/</button>
+                <button class="tecla" onclick="calcular(4)">4</button>
+                <button class="tecla" onclick="calcular(5)">5</button>
+                <button class="tecla" onclick="calcular(6)">6</button>
+                <button class="tecla" onclick="op('*')">*</button>
+                <button class="tecla" onclick="calcular(1)">1</button>
+                <button class="tecla" onclick="calcular(2)">2</button>
+                <button class="tecla" onclick="calcular(3)">3</button>
+                <button class="tecla" onclick="op('-')">-</button>
+                <button class="tecla" onclick="calcular(0)">0</button>
+                <button class="tecla" onclick="p('.')">.</button>
+                <button class="tecla" onclick="igual()">=</button>
+                <button class="tecla" onclick="op('+')">+</button>
+
             </div>
+            <div class="resultado">
+                <input type="text" id="res" class="res">
+            </div>
+        </div>
     </div>
 
-     <footer class="rodape">
+    <footer class="rodape">
         <label>
-            © 2026 Pedro Lucas Menezes Sousa. Todos os direitos reservados.
+            © 2026 Glowstone. Todos os direitos reservados.
             <a href="https://www.instagram.com/glowstone91/"><img class="ig" src="imagens/instagram.png"></a>
             <a href="https://www.youtube.com/@glowstone28"><img class="yt" src="imagens/youtube.png"></a>
         </label>
@@ -54,5 +56,3 @@
 </body>
 
 </html>
-
-
